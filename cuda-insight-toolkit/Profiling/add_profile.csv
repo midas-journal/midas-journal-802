@@ -1,0 +1,9 @@
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 Tesla T10 Processor
+# CUDA_PROFILE_CSV 1
+# TIMESTAMPFACTOR fffff6f604df1098
+gpustarttimestamp,method,gputime,cputime,occupancy,instructions
+121c368973a75d40,memcpyHtoD,90.144,169.000
+121c368973aa2900,memcpyHtoD,89.792,164.000
+121c368973ad7c80,_ZN6thrust6detail6device4cuda6detail23launch_closure_by_valueINS2_18for_each_n_closureINS_12zip_iteratorINS_5tupleINS_10device_ptrIfEENS8_IKfEES9_NS_9null_typeESC_SC_SC_SC_SC_SC_EEEEjNS0_31device_binary_transform_functorINS_4plusIfEEEEEEEEvT_,14.016,44.000,1.000,1296
+121c368973b50400,memcpyDtoH,83.072,178.000

@@ -1,0 +1,13 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0.544922 0.544922 0.6
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 1.45312 1.45312 1.6
+DimSize = 128 128 68
+ElementType = MET_FLOAT
+ElementDataFile = outputCPU3D.raw
